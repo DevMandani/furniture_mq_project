@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+    font-family: arial;
+}
+.container{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    margin: auto;
+}
+.nav{
+    
+   
+    width:25%;
+    height:100px;
+    
+}
+.nav1{
+
+    width:50%;
+    height:100px;
+   
+}
+.nav2{
+
+    width:15%;
+    height:100px;
+    
+}
+.nav4{
+    width:10%;
+    height:100px;
+    padding-left: 15px;
+    display: none;
+}
+.menu{
+    text-align: center;
+   
+   
+}
+.one{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   
+   color: #616060;
+   font-size: 24px;
+   font-weight: 500;
+   padding: 45px 0px;
+   text-transform: capitalize;
+}
+.menu1{
+    display:flex;
+    gap:30px;
+    flex-wrap: wrap;
+}
+.two{
+    display:flex;
+    justify-content: end;
+    color: #616060;
+    font-size: 16px;
+    
+    font-weight: 500;
+    padding: 45px 0px;
+    text-transform: capitalize;
+}
+.three{
+   display:flex;
+   justify-content: end;
+
+
+    color:orange;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 45px 0px;
+    text-transform: capitalize;
+}
+.menu3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap:30px;
+
+}
+
+.fa-magnifying-glass{
+    display:flex;
+    justify-content: end;
+    color: #616060;
+    font-size: 20px;
+    
+    font-weight: 500;
+    padding: 45px 0px;
+    text-transform: capitalize;
+}
+.fa-gear{
+    display:flex;
+    justify-content: end;
+    color: #616060;
+    font-size: 20px;
+    
+    font-weight: 500;
+    padding: 45px 0px;
+    text-transform: capitalize;
+}
+
+.fa-cart-shopping{
+    display:flex;
+    justify-content: end;
+    color: #616060;
+    font-size: 20px;
+    
+    font-weight: 500;
+    padding: 45px 0px;
+    text-transform: capitalize;
+}
+.main-pro{
+    padding: 35px;
+}
+.product{
+ 
+   
+    display: flex;
+    
+    
+    padding:20px;
+    
+    
+
+
+}
+.pro-cart
+{   
+   
+        padding:20px;
+    
+         display: flex;
+         justify-content: space-evenly;
+        
+        
+       
+
+}
+.pro-1{
+
+   width:25%;
+    border:1px solid black;
+    
+}
+.pro-2
+{
+    flex-basis: 2;
+    width:50%;
+
+    border:1px solid black;
+   
+}
+.pro-3{
+   
+    width:25%;
+    border:1px solid black;
+}
+
+.container1{
+    max-width:1320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+
+}
+.mt-5{
+    margin-top: 50px;
+
+}
+.pt-5{
+    padding-top: 50px;
+}
+
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
