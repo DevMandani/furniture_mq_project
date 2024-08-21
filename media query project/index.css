@@ -14,20 +14,27 @@
 .container-nav{
     display: flex;
     flex-wrap: wrap;
- 
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ position: fixed ;
+ z-index: 1;
+ width:100%;
     
+
+ backdrop-filter:blur(8px) ;
+
 }
 h2{
     text-align: center;
     padding: 20px 20px;
     color: #5f5b57;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.navbar{margin: auto;
+.navbar{
+    margin: auto;
  max-width: 1320px;
-   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
    display: flex;
    justify-content: space-between;
    width: 100%;
@@ -91,7 +98,7 @@ h2{
     color: #616060;
     font-size: 16px;
     
-    font-weight: 900;
+    font-weight: 700;
     padding: 45px 0px;
     text-transform: capitalize;
 }
@@ -160,7 +167,7 @@ h3{
     display: flex;
     
     
-    padding:20px;
+    padding:30px;
     width: 100%;
     
 
@@ -565,7 +572,7 @@ h1{
     
          display: flex;
          justify-content: space-between;
-         flex-wrap: nowrap !important;
+         flex-wrap: wrap !important;
         
 }
 
@@ -602,20 +609,30 @@ h1{
         width:100%;
         position: relative;
      
-
-      
-    
-        
+    }
+    .cw-2 {
+        display: flex;
+        justify-content: center;
     }
 .new-chair{
-    
+    transition: transform 1s;
 }
 
 .chair-img{
     background-color: #f8f9fc;
-    padding: 100px 60px;
-    
+    padding: 15px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
+.chair-img:hover .new-chair{
+    transform: scale(1.4);
+}
+
+.
+
 .chair-text{
     padding: 20px 20px;
 }
@@ -671,6 +688,8 @@ h1{
     height:700px;
     background-image: url(img/b4.jpg);
     background-position: center;
+    background-size: cover;
+    
     background-repeat: no-repeat;
     background-image: linear-gradient(to rgb(100, 97, 97));
     
@@ -678,7 +697,9 @@ h1{
 
 .sofa-text{
     padding-top: 150px;
-        padding-right: 400px;
+        display: block;
+        overflow:hidden;
+  
 }
 .sofa-txt{
     color:white;
@@ -706,4 +727,73 @@ h1{
     font-weight: 600;
     border:none;
     font-size:17px;
+}
+
+.table-price{
+    padding: 5px;
+    display: flex;
+    column-gap: 15px;
+    text-align: center;
+}
+.rating{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    color: #a09e9c;
+}
+.new-cart-one{
+    width:33.33%;
+}
+.other-five{
+    font-size: 15px;
+    text-decoration: none;
+    color: #616060;
+    font-size: 16px;
+    padding: 0;
+    font-weight: 600;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.other-five:hover{
+    color:orange;
+}
+.other-four{
+    padding-left: 20px;
+    margin: 10px;
+    color: #bcb7b2;
+    font-size: 14px;
+    font-weight: 400;
+}
+.other-six{
+    padding-left: 20px;
+    margin: 10px;
+    font-size: 13px;
+    margin-top: 20px;
+    color: #95908b;
+    line-height: 2;
+}
+.newpro-1{
+  
+    width:100%;
+   
+
+    
+}
+.new-rating{
+    padding: 10px;
+}
+.newpro-2
+{
+
+
+        width: 100%;
+      
+}
+.newpro-3{
+   width: calc();
+    
+   
+  
+   
 }
