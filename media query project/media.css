@@ -34,7 +34,11 @@
     }
     
 }
-
+@media(max-width:786px){
+    .w-box-1{
+        width:100%;
+    }
+}
 
 
 
@@ -63,16 +67,77 @@
     .nav1{
         display: none;
     }
+    .cw-2{
+        width:100%;
+    }
+    .cw-1{
+        width:100%;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media(max-width:992px){
     .w-2{
         width:50%;
     }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .chair-img{
+        padding: 100px 40px;
+    }
 }
 
 @media(max-width:375px){
     .w-1{
         width:100%;
+    }
+    .cw-1{
+        width:100%;
+    }
+    .chair-img{
+        padding: 100px 40px;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width:992px){
+    .other-four{
+        padding-left: 20px;
+    margin: 10px;
+    text-align: center;
+    }
+    .other-five{
+        text-align: center;
+    }
+    .other-six{
+        text-align: center;
+    }
+    .new-rating{
+        text-align: center;
+        padding: 10px;
+    }
+    .chair-img1{
+        text-align: center;
+    }
+}
+
+@media(max-width:767px){
+    .cw-2{
+         width: 100%;
+    }
+
+    .cw-2 > div{
+        max-width: 270px !important;
     }
 }
