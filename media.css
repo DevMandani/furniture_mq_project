@@ -119,6 +119,7 @@
 @media(max-width:476px){
     .slider-img1{
         height:350px;
+        margin:20px;
         width:100%;
     }
     link{
