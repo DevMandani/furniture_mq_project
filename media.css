@@ -49,6 +49,17 @@
     .menu{
         text-align: center;
     }
+    .slider-d1{
+        padding: 0;
+    }
+    .slider-d2{
+        padding: 0;
+
+    }
+    .slider-d3{
+        padding: 0;
+    }
+
 }
 @media(max-width:375px){
     .w-1{
