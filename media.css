@@ -142,6 +142,10 @@
     .slider-d6{
         padding: 0px 0px 0px 20px;
     }
+
+    .slider-d7{
+        padding: 0px 0px 0px 10px;
+    }
     link{
          position: absolute;
     left: 50%;
@@ -156,6 +160,10 @@
     }
     .cw-1{
         width:100%;
+    }
+    
+    .slider-d7{
+        padding: 0px 0px 0px 10px;
     }
     .slider-d1{
         padding: 0px 0px 0px 10px;
