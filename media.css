@@ -149,7 +149,7 @@
     link{
          position: absolute;
     left: 50%;
-    top: -40px;
+    top: 40%;
     }
    
 }
@@ -207,7 +207,7 @@
     link{
         position: absolute;
    left: 50%;
-   top: 100px;
+   top: 40%;
    }
 }
 
