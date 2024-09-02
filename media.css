@@ -116,6 +116,13 @@
     }
 }
 
+@media(max-width:476px){
+    .slider-img1{
+        height:400px;
+        width:100%;
+    }
+}
+
 @media(max-width:375px){
     .w-1{
         width:100%;
@@ -130,6 +137,11 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .slider-img1{
+        height:400px;
+        width:100%;
     }
 }
 @media(max-width:992px){
