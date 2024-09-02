@@ -123,6 +123,13 @@
         padding-right: 20px;
         width:100%;
     }
+    .slider-d1{
+        padding: 0px 0px 0px 10px;
+
+    }
+    .slider-d2{
+        padding: 0px 0px 0px 10px;
+    }
     .slider-d3{
         padding: 0px 0px 0px 20px;
     }
@@ -133,6 +140,12 @@
         padding: 0px 0px 0px 20px;
     }
     .slider-d6{
+        padding: 0px 0px 0px 20px;
+    }
+    .slider-d8{
+        padding: 0px 0px 0px 20px;
+    }
+    .slider-d9{
         padding: 0px 0px 0px 20px;
     }
     link{
@@ -149,6 +162,19 @@
     }
     .cw-1{
         width:100%;
+    }
+    .slider-d1{
+        padding: 0px 0px 0px 10px;
+
+    }
+    .slider-d2{
+        padding: 0px 0px 0px 10px;
+    }
+    .slider-d8{
+        padding: 0px 0px 0px 20px;
+    }
+    .slider-d9{
+        padding: 0px 0px 0px 20px;
     }
     .slider-d3{
         padding: 0px 0px 0px 20px;
