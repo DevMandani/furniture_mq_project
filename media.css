@@ -123,6 +123,9 @@
         padding-right: 20px;
         width:100%;
     }
+    .slider-d3{
+        padding: 0px 0px 0px 0px;
+    }
     link{
          position: absolute;
     left: 50%;
@@ -137,6 +140,9 @@
     }
     .cw-1{
         width:100%;
+    }
+    .slider-d3{
+        padding: 0px 0px 0px 0px;
     }
     .chair-img{
         padding: 100px 40px;
