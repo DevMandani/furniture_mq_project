@@ -1,0 +1,185 @@
+@media(max-width:992px){
+    .menu{
+        text-align: center;
+    }
+}
+@media(max-width:992px){
+    .w-1{
+      display: none;;
+    }
+    .cw-1{
+        width: 100%;
+    }
+
+}
+@media(max-width:1299px){
+    .cw-2{
+        width:33.33%;
+    }
+}
+@media(max-width:993px){
+    .nav4{
+        display: flex;
+    }
+}
+@media(max-width:992px){
+    .nav{
+        /* align:center;
+        width:75%; */
+    }
+}
+@media(max-width:992px){
+    .nav1{
+        display: none;
+    }
+    
+}
+@media(max-width:786px){
+    .w-box-1{
+        width:100%;
+    }
+    .otherbox-1{
+        width: 100%;
+    }
+}
+
+
+
+@media(max-width:375px){
+    .menu{
+        text-align: center;
+    }
+}
+@media(max-width:375px){
+    .w-1{
+      display: none;;
+    }
+}
+@media(max-width:375px){
+    .nav4{
+        display: flex;
+    }
+}
+@media(max-width:375px){
+    .nav{
+        align:center;
+        /* width:75%; */
+    }
+}
+@media(max-width:375px){
+    .nav1{
+        display: none;
+    }
+    .cw-2{
+        width:100%;
+    }
+    .cw-1{
+        width:100%;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-1{
+        width:100%;
+    }
+}
+
+@media(max-width:992px){
+    .w-2{
+        width:50%;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    
+    }
+    .logo-icon{
+        width:100%;
+    }
+    .chair-img{
+        padding: 100px 40px;
+    }
+}
+
+@media(max-width:375px){
+    .w-1{
+        width:100%;
+    }
+    .cw-1{
+        width:100%;
+    }
+    .chair-img{
+        padding: 100px 40px;
+    }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width:992px){
+    .other-four{
+        padding-left: 20px;
+    margin: 10px;
+    text-align: center;
+    }
+
+    .pro-2{
+        max-width:470px;
+        height:500px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .pro-1{
+        max-width:270px;
+        
+        
+        
+
+    }
+    .other-five{
+        text-align: center;
+       
+        margin: 10px;
+    }
+    .other-six{
+        text-align: center;
+  
+        margin: 10px;
+    }
+    .new-rating{
+        text-align: center;
+        padding: 10px;
+    }
+    .chair-img1{
+        text-align: center;
+    }
+
+    .fw-2{
+        width: 50%;
+    }
+ 
+}
+
+@media(max-width:767px){
+    .cw-2{
+         width: 100%;
+    }
+
+    .cw-2 > div{
+        max-width: 270px !important;
+    }
+    .fw-1{
+        width: 100%;
+    }
+    .logo-icon{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
