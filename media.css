@@ -147,8 +147,7 @@
         padding: 0px 0px 0px 10px;
     }
     link{
-         position: absolute;
-    left: 50%;
+  
     padding-top: 40%;
     }
    
@@ -205,8 +204,7 @@
         height:100%;
     }
     link{
-        position: absolute;
-   left: 50%;
+     
    padding-top: 40%;
    }
 }
