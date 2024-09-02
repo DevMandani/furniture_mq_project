@@ -121,6 +121,10 @@
         height:400px;
         width:100%;
     }
+    .link{
+        
+        padding-top: 111%;
+    }
 }
 
 @media(max-width:375px){
