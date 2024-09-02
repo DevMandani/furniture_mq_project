@@ -146,7 +146,13 @@
     .footer-detail{
         padding-left: 20px;
     }
+    .scroll{
+        width:100%;
+        height:100%;
+    }
 }
+
+
 @media(max-width:992px){
     .other-four{
         padding-left: 20px;
