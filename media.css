@@ -143,6 +143,9 @@
         height:400px;
         width:100%;
     }
+    .footer-detail{
+        padding-left: 20px;
+    }
 }
 @media(max-width:992px){
     .other-four{
