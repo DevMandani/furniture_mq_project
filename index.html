@@ -28,17 +28,13 @@
 </head>
 
 <body>
-    <style>
-        body{
-            scroll-behavior: smooth;
-        }
-    </style>
+
     <header>
         <div class="container-nav">
             <div class="navbar">
                 <div class="nav4">
                     <div class="menu">
-                        <h2 class="one"><i class="fa-solid fa-bars"></i></h2>
+                        <h2 class="one menubtn"><i class="fa-solid fa-bars"></i></h2>
                     </div>
                 </div>
                 <div class="nav">
@@ -46,7 +42,7 @@
                         <h2 class="one">Furn. </h2>
                     </div>
                 </div>
-                <div class="nav1 w-1">
+                <div class="nav1">
                     <div class="menu1 w-1">
                         <a href="">
                             <h3 class="two">Home</h3>
@@ -891,6 +887,15 @@
 
     </div>
 
+
+    
+
+    <script src="jquery-3.7.1.min.js"></script>
+        <script>
+            $(".menubtn").click(function(){
+                $(".nav1").slideToggle("fast");
+            })
+        </script>
 </body>
 
 </html>

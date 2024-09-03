@@ -5,7 +5,10 @@
 }
 @media(max-width:992px){
     .w-1{
-      display: none;;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
     }
     .cw-1{
         width: 100%;
@@ -28,12 +31,39 @@
         width:75%; */
     }
 }
+
+
 @media(max-width:992px){
     .nav1{
+        position: absolute;
         display: none;
+        left:0px;
+        top:100px;
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+    }
+}
+   
+     .menu1{
+        padding: 10px 20px ;
+        gap: 0px;
+    }
+    .menu1 a{
+        padding: 10px 20px;
+    }
+    .menu1 a:hover{
+        background-color: gainsboro;
     }
     
-}
+    
+
+
+
+
+
+    
+
 @media(max-width:786px){
     .w-box-1{
         width:100%;
@@ -63,7 +93,7 @@
 }
 @media(max-width:375px){
     .w-1{
-      display: none;;
+      /* display: none;; */ 
     }
 }
 @media(max-width:375px){
