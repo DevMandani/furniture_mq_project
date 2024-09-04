@@ -17,6 +17,8 @@
     rel="stylesheet"
 />
 
+
+    <link rel="stylesheet" href="new.css">
         <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"
@@ -27,7 +29,7 @@
 
 </head>
 
-<body>
+<body class="">
 
     <header>
         <div class="container-nav">
@@ -60,6 +62,11 @@
                         <a href="#contact">
                             <h3 class="two">Contact</h3>
                         </a>
+                        <select name="">
+                            <option id="the1"  class="theme1" value="">White Theme</option>
+                            <option  id="the2" class="theme2" value="">Dark Theme</option>
+                        </select>
+                        <button class="welcdome">welcdome</button>
                     </div>
                 </div>
                 <div class="nav2">
@@ -894,6 +901,12 @@
         <script>
             $(".menubtn").click(function(){
                 $(".nav1").slideToggle("fast");
+            })
+        </script>
+
+        <script>
+            $("#the1").click(function(){
+                $("body").addClass("theme")
             })
         </script>
 </body>

@@ -13,6 +13,32 @@ body {
   position: relative;
 
 }
+
+
+.container-new-slider{
+  max-width:1400px;
+  
+  margin:auto;
+
+  padding: 20px;
+}
+.swipe{
+   
+    padding: 10px;
+  
+}
+.swipe > div{
+  
+  
+
+}
+.new-slider-img{
+width:65%;
+
+}
+.other-new-slider{
+  background-color: aliceblue;
+}
 .new-scroll-button {
   position: fixed;
 
@@ -321,7 +347,7 @@ h3 {
 }
 .footer1 {
   width: 25%;
-  border: ;
+  /* border: ; */
 
   /* 
   border:1px solid red; */
@@ -1139,6 +1165,8 @@ p14 {
   margin: 34px 0px;
   padding-left: 160px;
 }
+
+
 .slider-d8 {
   padding: 10px 30px;
   background-color: orange;
