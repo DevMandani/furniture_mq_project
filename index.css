@@ -1024,14 +1024,33 @@ p14 {
 
   margin-top: 100px;
   background-color: #f8f9fc;
-  transition: all 1s;
+  animation: move 10s infinite ease-in-out;
 }
 
 .subboxes {
   width: 300%;
   display: flex;
+  
 }
 
+@keyframe move{
+
+
+  0%{
+    margin-left:0%;
+
+  }
+  33.33%{
+    margin-left:-100%;
+
+  }
+  66.66%{
+    margin-left:-200%;
+  }
+  100%{
+    margin-left:-300%;
+  }
+}
 .subboxes1 {
   width: 200%;
   display: flex;
@@ -1150,9 +1169,9 @@ p14 {
 }
 
 .link {
-  position: absolute;
+  position: relative;
   left: 50%;
-  top: 608px;
+ bottom:0%;
 }
 
 .othera {
